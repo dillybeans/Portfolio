@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects: Dylan Dodge</title>
+  <meta name="description" content="Projects by Dylan Dodge: educational games combining music and math, digital art, and web development.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="starfield"></div>
+<div class="cosmic-glow"></div>
+
+<!-- Navigation -->
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="dot"></span> Dylan Dodge</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="case-study.html">Case Study</a></li>
+      <li><a href="https://github.com/Dillybeans" target="_blank" class="btn btn-secondary" style="padding:8px 18px;font-size:0.85rem;">GitHub</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Page Header -->
+<header class="page-header">
+  <div class="hero-badge" style="margin:0 auto 20px;">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+    Portfolio
+  </div>
+  <h1>My Projects</h1>
+  <p>Things I've built, broken, and shipped.</p>
+</header>
+
+<!-- Projects Grid -->
+<section class="section" style="padding-top:20px;">
+  <div class="section-inner">
+    <div class="projects-grid">
+
+      <!-- Featured Project Card -->
+      <div class="glass-card project-card featured-card animate-in">
+        <div class="project-thumb">
+          <img src="assets/screenshots/landing-page.png" alt="Grooving with Math landing page with vibrant cosmic design">
+        </div>
+        <div class="project-body">
+          <div class="featured-badge" style="margin-bottom:12px;">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Featured Project
+          </div>
+          <h3>Grooving with Math</h3>
+          <p>Some people struggle with math but most people like music — so I created this game that helps you learn math while grooving to music! Solve equations to unlock missing instrument tracks and hear the song come alive.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Phaser 3</span>
+            <span class="tech-tag">Three.js</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Web Audio API</span>
+          </div>
+          <div class="project-links">
+            <a href="case-study.html" class="btn btn-primary" style="padding:10px 20px;font-size:0.85rem;">Case Study →</a>
+            <a href="case-study.html#try-it" class="btn btn-play" style="padding:10px 20px;font-size:0.85rem;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Play Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gameplay Screenshots as secondary cards -->
+      <div class="glass-card project-card animate-in">
+        <div class="project-thumb">
+          <img src="assets/screenshots/gameplay-math.png" alt="Grooving with Math gameplay showing a math equation panel with multiple choice answers and a 3D character avatar">
+        </div>
+        <div class="project-body">
+          <h3>Grooving with Math: Gameplay</h3>
+          <p>The core game loop: solve algebra equations to repair broken music tracks. Features a 3D animated character companion that reacts to your answers — cheering you on when you get it right!</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Phaser 3</span>
+            <span class="tech-tag">Three.js</span>
+            <span class="tech-tag">Poly Pizza</span>
+            <span class="tech-tag">Audio Stems</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card project-card animate-in">
+        <div class="project-thumb">
+          <img src="assets/screenshots/game-menu.png" alt="Grooving with Math menu screen with level selection and preview mix button">
+        </div>
+        <div class="project-body">
+          <h3>Grooving with Math: Level System</h3>
+          <p>5 progressive levels with increasing difficulty. Pick what level of math you want — each level introduces new instrument stems, different songs and beats, and harder equations.</p>
+          <div class="tech-tags">
+            <span class="tech-tag">Game Design</span>
+            <span class="tech-tag">UX</span>
+            <span class="tech-tag">Progression</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Features -->
+      <div class="glass-card project-card animate-in" style="grid-column: 1 / -1;">
+        <div class="project-body" style="padding:32px;">
+          <h3 style="margin-bottom:20px;">Key Features</h3>
+          <div class="features-list">
+            <div class="feature-item">
+              <span class="feature-number">01</span>
+              <div>
+                <h4>AI-Powered Character</h4>
+                <p>A little animated 3D character that cheers you on when you answer math questions correctly — all made from AI using Poly Pizza assets.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-number">02</span>
+              <div>
+                <h4>Music-Driven Learning</h4>
+                <p>Play along with the game and answer math problems while the music is playing. Each correct answer restores a missing instrument track.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-number">03</span>
+              <div>
+                <h4>5 Progressive Levels</h4>
+                <p>Pick what level of math you want to play — levels 1 through 5, each with different songs, beats, and increasingly challenging equations.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-number">04</span>
+              <div>
+                <h4>Chaotic Audio Feedback</h4>
+                <p>Wrong answers create distorted, chaotic audio effects — making you WANT to find the right answer to fix the music.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Coming Soon -->
+    <div class="animate-in" style="text-align:center;margin-top:60px;padding:40px;">
+      <p style="color:var(--clr-text-dim);font-size:1rem;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--clr-primary)" stroke-width="2" style="vertical-align:middle;margin-right:6px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        More projects coming soon; always building, always learning.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Built by Dylan Dodge with HTML, CSS &amp; JavaScript · © 2026</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

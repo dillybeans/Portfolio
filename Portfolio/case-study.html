@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grooving with Math: Case Study by Dylan Dodge</title>
+  <meta name="description" content="How Dylan Dodge designed, built, and tested Grooving with Math, an educational rhythm game that turns algebra into music.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="starfield"></div>
+<div class="cosmic-glow"></div>
+
+<!-- Navigation -->
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="dot"></span> Dylan Dodge</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="case-study.html" class="active">Case Study</a></li>
+      <li><a href="https://github.com/Dillybeans" target="_blank" class="btn btn-secondary" style="padding:8px 18px;font-size:0.85rem;">GitHub</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Case Study Hero -->
+<header class="case-hero">
+  <p class="meta">Solo Developer · CodaKid Portfolio Pathway · 2026</p>
+  <h1 style="background:linear-gradient(135deg,#fff,var(--clr-primary),var(--clr-accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Grooving with Math</h1>
+  <p class="tagline">Repair the Music. Solve the Math.</p>
+  <div class="case-hero-img">
+    <img src="assets/screenshots/landing-page.png" alt="Grooving with Math game landing page with cosmic design showing Let's Rock and Play as Guest buttons">
+  </div>
+</header>
+
+<!-- The Problem -->
+<section class="case-section">
+  <div class="case-inner animate-in">
+    <span class="section-label">The Problem</span>
+    <h2>Math shouldn't feel like punishment</h2>
+    <p style="margin-bottom:20px;">So many people struggle with math and it makes it hard to have fun with it. But I wanted to make it fun and educational at the same time. Existing math games often feel like thinly disguised quizzes — you answer a question, get a star, move on. There's no real motivation to keep playing.</p>
+    <p style="margin-bottom:20px;">When I was younger I would sing and listen to music all the time (I still do) and I realized that math and music had a lot in common — rhythms, beats, fractions, etc. So I wanted to make a game that would help people learn math while also having fun.</p>
+    <p>I wanted to build something where the math IS the gameplay, not a quiz with a game skin on top. Something where getting the right answer doesn't just earn points — it creates something you can actually hear and feel.</p>
+  </div>
+</section>
+
+<!-- My Solution -->
+<section class="case-section" style="background:var(--clr-bg-alt);">
+  <div class="case-inner animate-in">
+    <span class="section-label">My Solution</span>
+    <h2>Music as the reward</h2>
+    <p style="margin-bottom:24px;">Grooving with Math is a rhythm-based algebra game. How it works: a song plays, but some instruments are missing — you'll hear gaps where the music should be. To repair each track, you solve algebra equations. Each correct answer literally restores a piece of the music.</p>
+
+    <div class="how-it-works">
+      <div class="glass-card step-card">
+        <span class="step-num">1</span>
+        <h4>Listen to the Broken Track</h4>
+        <p>A song plays, but some instruments are missing — you'll hear gaps where the music should be.</p>
+      </div>
+      <div class="glass-card step-card">
+        <span class="step-num">2</span>
+        <h4>Click a Missing Track</h4>
+        <p>See the mixing board? The locked tracks are broken. Click one to reveal a math equation.</p>
+      </div>
+      <div class="glass-card step-card">
+        <span class="step-num">3</span>
+        <h4>Solve the Equation</h4>
+        <p>Pick the correct answer from 4 choices. Right answer = that instrument comes back to life!</p>
+      </div>
+      <div class="glass-card step-card">
+        <span class="step-num">4</span>
+        <h4>Restore the Full Song</h4>
+        <p>Keep solving until every track is playing. 5 levels, harder math, bigger songs. You got this.</p>
+      </div>
+    </div>
+
+    <div class="screenshot-grid" style="margin-top:32px;">
+      <div>
+        <img src="assets/screenshots/game-menu.png" alt="Game menu showing level selector with 5 progressive levels and Preview Full Mix button">
+        <p class="screenshot-caption">Menu screen with 5 levels and full mix preview</p>
+      </div>
+      <div>
+        <img src="assets/screenshots/gameplay-math.png" alt="Gameplay screen showing a math equation with four answer choices alongside a 3D character">
+        <p class="screenshot-caption">Solving equations to repair missing instrument tracks</p>
+      </div>
+    </div>
+
+    <div style="margin-top:32px;display:flex;gap:12px;flex-wrap:wrap;">
+      <a href="#try-it" class="btn btn-play">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Play the Game
+      </a>
+      <a href="https://github.com/Dillybeans" target="_blank" class="btn btn-secondary">View Source Code</a>
+    </div>
+  </div>
+</section>
+
+<!-- Key Features -->
+<section class="case-section">
+  <div class="case-inner animate-in">
+    <span class="section-label">Key Features</span>
+    <h2>What makes it special</h2>
+    <div class="features-list" style="margin-top:24px;">
+      <div class="feature-item">
+        <span class="feature-number">01</span>
+        <div>
+          <h4>AI-Powered 3D Character</h4>
+          <p>There is a little animated character that cheers you on when you answer math questions correctly — all made from AI using Poly Pizza. I was surprised that I was able to create a game that has a character doing different emotes fully made by AI in just a few hours.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-number">02</span>
+        <div>
+          <h4>Music-Driven Gameplay</h4>
+          <p>You can play along with the game and answer the math problems while the music is playing. Each correct answer literally adds an instrument back into the mix.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-number">03</span>
+        <div>
+          <h4>5 Progressive Levels</h4>
+          <p>You can pick what level of math you want to play — levels 1 through 5. The game has multiple levels with different songs and beats, building skills gradually.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-number">04</span>
+        <div>
+          <h4>Chaotic Audio Feedback</h4>
+          <p>Wrong answers produce chaotic audio: randomized volume, pitch shifts, delay, and playback speed. It's negative feedback you can feel without feeling punished.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How I Built It -->
+<section class="case-section" style="background:var(--clr-bg-alt);">
+  <div class="case-inner animate-in">
+    <span class="section-label">Technical Deep Dive</span>
+    <h2>How I built it</h2>
+    <p style="margin-bottom:24px;">I chose each tool for a specific reason. Every decision came from a real problem I needed to solve.</p>
+
+    <div class="tech-stack-grid">
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div>
+          <h4>HTML / CSS / JavaScript</h4>
+          <p>Core web tech: runs in any browser with zero install</p>
+        </div>
+      </div>
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+        </div>
+        <div>
+          <h4>Phaser 3</h4>
+          <p>Game engine for sprite rendering, scene management, and input handling</p>
+        </div>
+      </div>
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>
+        </div>
+        <div>
+          <h4>Three.js + Poly Pizza</h4>
+          <p>3D animated character companion built from AI-generated assets</p>
+        </div>
+      </div>
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div>
+          <h4>Web Audio API</h4>
+          <p>Multitrack audio stems with real-time effects for feedback</p>
+        </div>
+      </div>
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+        </div>
+        <div>
+          <h4>Better Auth</h4>
+          <p>User authentication with email/password and OAuth login</p>
+        </div>
+      </div>
+      <div class="glass-card tech-item">
+        <div class="tech-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 006 0v-1a10 10 0 10-3.92 7.94"/></svg>
+        </div>
+        <div>
+          <h4>Node.js + Express</h4>
+          <p>Backend server for auth and session management</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:32px;margin-bottom:16px;">Biggest challenge</h3>
+    <p>Syncing multitrack audio stems in real-time was the hardest technical problem. Each instrument track needed to start at exactly the same point in the song, regardless of when it was unlocked. I also needed wrong answers to produce chaotic audio: randomized volume, pitch shifts, delay, and playback speed, without crashing the browser's audio engine.</p>
+  </div>
+</section>
+
+<!-- Results -->
+<section class="case-section">
+  <div class="case-inner animate-in">
+    <span class="section-label">Impact &amp; Results</span>
+    <h2>What happened</h2>
+
+    <div class="stat-grid">
+      <div class="glass-card stat-card">
+        <div class="number">5</div>
+        <div class="label">Progressive Levels</div>
+      </div>
+      <div class="glass-card stat-card">
+        <div class="number">7</div>
+        <div class="label">Audio Stems Per Song</div>
+      </div>
+      <div class="glass-card stat-card">
+        <div class="number">3D</div>
+        <div class="label">Animated Character</div>
+      </div>
+    </div>
+
+    <div class="quote-block">
+      "Cool game design — I like the character." — Dad's favorite comment
+    </div>
+
+    <p style="margin-top:24px;">The game rewards persistence, not perfection. Each wrong answer creates memorable negative audio feedback that makes players WANT to find the right answer, not because they'll lose points, but because they want to hear the music sound right.</p>
+  </div>
+</section>
+
+<!-- Screenshots Gallery -->
+<section class="case-section" style="background:var(--clr-bg-alt);">
+  <div class="case-inner animate-in">
+    <span class="section-label">In Action</span>
+    <h2>Screenshots</h2>
+    <div class="screenshot-grid">
+      <div>
+        <img src="assets/screenshots/gameplay-tracks.png" alt="Track selection screen with drums playing and keys locked, showing progress bar">
+        <p class="screenshot-caption">Track repair screen with audio waveform visualization</p>
+      </div>
+      <div>
+        <img src="assets/screenshots/game-avatar.png" alt="Game with full sound toggle, level 1 foundations track, and 3D character visible on right side">
+        <p class="screenshot-caption">Full game interface with 3D character companion</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What I Learned -->
+<section class="case-section">
+  <div class="case-inner animate-in">
+    <span class="section-label">Reflection</span>
+    <h2>What I learned</h2>
+    <p style="margin-bottom:20px;"><strong>AI as a creative tool:</strong> I learned that AI can be used to create games and characters and other cool things and be a good tool to help you create a game that is fun and educational at the same time. I was surprised that I was able to create a game that has a character doing different emotes fully made by AI in just a few hours.</p>
+    <p style="margin-bottom:20px;"><strong>Design thinking:</strong> The biggest lesson was that the game mechanic IS the learning mechanic. When I stopped thinking of math and music as separate things and started treating the equation as the instrument's unlock key, the whole design clicked.</p>
+    <p style="margin-bottom:20px;"><strong>What's next:</strong> If I were a fun math teacher for 6-7th grade I would probably use this game as a way to review math concepts with my students. I want to expand it with more songs, more equation types (fractions, variables, multi-step), and a classroom mode.</p>
+    <p>I've been coding for 6 years now, and this is the project that made me realize I want to keep building things that help people learn. Every kid deserves tools that make hard subjects feel possible.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="case-cta" id="try-it">
+  <h2>Try It Yourself</h2>
+  <p style="color:var(--clr-text-dim);max-width:500px;margin:0 auto 28px;">Experience Grooving with Math: solve equations, repair the music, and hear the song come alive.</p>
+  <div class="btn-group">
+    <a href="https://github.com/Dillybeans" target="_blank" class="btn btn-play" style="font-size:1.1rem;padding:16px 36px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      Play the Game
+    </a>
+    <a href="https://github.com/Dillybeans" target="_blank" class="btn btn-secondary" style="font-size:1.1rem;padding:16px 36px;">View on GitHub</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Built by Dylan Dodge with HTML, CSS &amp; JavaScript · © 2026</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
