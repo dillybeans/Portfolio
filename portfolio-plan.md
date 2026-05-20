@@ -99,22 +99,21 @@ Hello, I am Dylan Dodge and I am a 7th grader at Veritas Classical Academy in Ph
 
 | Language | Confidence Level | How Long You've Used It |
 |----------|-----------------|------------------------|
-| JavaScript | [Beginner/Intermediate/Confident] | [e.g., 6 months] |
-| HTML/CSS | [Beginner/Intermediate/Confident] | [e.g., 1 year] |
-| Python | [Beginner/Intermediate/Confident] | [e.g., 2 years] |
-| [Add more] | | |
+| JavaScript | beginner | 2 months 
+| HTML/CSS | [beginner]  Idk 
+| Python | beginner | Python |
+
 | [Add more] | | |
 
 ### Frameworks & Tools
-> List any frameworks, libraries, or tools you've used (even briefly). Include what you used in this program.
-
+>Have just used webistes like PollyPizza, GitHub and Antigravity
 | Tool / Framework | What I Used It For |
 |-----------------|-------------------|
-| [e.g., Phaser 3] | [Built my educational game] |
-| [e.g., Firebase] | [Backend for my game's data] |
-| [e.g., Git/GitHub] | [Version control for all my projects] |
-| [e.g., VS Code] | [My main code editor] |
-| [e.g., Figma] | [Designed UI mockups] |
+| Antigravity | Used Antigravity to help me build my game |
+|Pollypizza | Built my AI character and emotes|
+ Git/GitHub | Used GitHub to turn in my projects and get help on them|
+| 
+
 | [Add more] | |
 
 ### Other Skills (Non-Technical)
@@ -123,14 +122,13 @@ Hello, I am Dylan Dodge and I am a 7th grader at Veritas Classical Academy in Ph
 - [x] Digital Art
 - [x] Video editing 
 - [x]    
-- [ ] Technical writing
-- [ ] Project management
-- [ ] User research / interviewing
-- [ ] Data analysis
-- [ ] Music production
-- [ ] 3D modeling
-- [ ] Other: _______________
-- [ ] Other: _______________
+- [] Technical writing
+- [No] Project management
+- [No] User research / interviewing
+- [No] Data analysis
+- [yes!] Music production
+- [No] 3D modeling
+
 
 ---
 
@@ -144,7 +142,7 @@ Math Groove
 ### One-Line Description
 > One sentence that makes someone want to click 
 
-Some struggle with math but not with music so I created this game that helps you learn math while grooving to music 
+Some people struggle with math but most people like music so I created this game that helps you learn math while grooving to music!
 
 
 
@@ -157,25 +155,37 @@ So many people struggle with math and it makes it hard to have fun with it. But 
 
 
 ### How It Works
-> Describe the gameplay and how playing = learning. Imagine you're explaining it to a friend who's never seen the game.
-How the game works is that you need to complete the beat for the song there is a missing instument track an you need to create the instument track by answering math problems.
+> LISTEN TO THE BROKEN TRACK
+A song plays, but some instruments are missing — you'll hear gaps where the music should be.
+
+2
+CLICK A MISSING TRACK
+See the mixing board? The locked tracks are broken. Click one to reveal a math equation.
+
+3
+SOLVE THE EQUATION
+Pick the correct answer from 4 choices. Right answer = that instrument comes back to life!
+
+4
+RESTORE THE FULL SONG
+Keep solving until every track is playing. 5 levels, harder math, bigger songs. You got this. 
 
 ### Live URL
 > The deployed GitHub Pages link from Day 7.
 
-https://[username].github.io/[repo-name]/
+
 
 ### GitHub Repository
-https://github.com/[username]/[repo-name]
+https://github.com/dillybeans\
 
 ### Tech Stack
 > List what you built it with and WHY you chose each tool.
 
 | Technology | Why I Chose It |
 |-----------|---------------|
-| [e.g., HTML/CSS/JS] | [Core web technologies — runs in any browser] |
-| [e.g., Phaser 3] | [Needed sprite-based 2D game engine with physics] |
-| [e.g., Firebase] | [Needed real-time data storage for leaderboards] |
+| https://poly.pizza [Needed a charcater uploaded to make my game more lively] |
+| https://github.com/Dillybeans [Needed it to help me build the game] |
+|  https://antigravity-ai/antigravity  | [ Needed antigravity for help on building the game ]|
 | [Add more] | |
 
 ### Key Features
@@ -192,9 +202,9 @@ https://github.com/[username]/[repo-name]
 
 | Screenshot File | What It Shows |
 |----------------|--------------|
-| `game-screenshot-1.png` | [e.g., Landing page with start button] |
-| `game-screenshot-2.png` | [e.g., Active gameplay — solving a level 3 problem] |
-| `game-screenshot-3.png` | [e.g., Results screen showing learning progress] |
+| !(Screenshot 2026-05-06 at 3.22.35 PM.png`assets/screenshots/`) |  Landing page with start button] |
+| (Screenshot 2026-05-06 at 3.25.53 PM.png `assets/screenshots/`) | [ Active gameplay — solving a level 3 problem] |
+ | (Screenshot 2026-05-06 at 3.27.32 PM.png `assets/screenshots/`) | [ Results screen showing learning progress] |
 | [Add more] | |
 
 **Save all screenshots to:** `assets/screenshots/`
@@ -202,10 +212,7 @@ https://github.com/[username]/[repo-name]
 ### Impact / Results
 > Pull the best numbers and quotes from your playtesting. This is what makes your project stand out.
 
-- **Number of playtesters:** [e.g., 8 students, grades 4-6]
-- **Average play session:** [e.g., 12 minutes]
-- **Key finding:** [e.g., "Players improved their score by 35% between first and third attempts"]
-- **Best user quote:** "[Direct quote from a playtester]"
+Dads Favorite Comment - Cool game design I like the character. 
 
 ### What I Learned
 > 3-5 sentences about what building this project taught you — technical skills, design thinking, user empathy, project management, etc. Be specific.
@@ -255,26 +262,20 @@ https://github.com/[username]/[repo-name]
 
 | Activity | Your Role | Years Active | Brief Description |
 |----------|----------|-------------|-------------------|
-| [e.g., Robotics Club] | [e.g., Team Lead] | [e.g., 2024-present] | [What you did/do] |
-| [e.g., Varsity Soccer] | [e.g., Midfielder] | [e.g., 2023-present] | |
-| [e.g., Code.org Volunteer] | [e.g., Teaching Assistant] | [e.g., Summer 2025] | [Taught 3rd graders basics of coding] |
-| | | | |
-| | | | |
+| Tennis team  | Seed three  | 7th grade | [Showed my coach that I am a good player and that I have been practicing tennis since I was six years old] |
+
 
 ### Awards & Honors (If Any)
 
 | Award | Year | Details |
 |-------|------|---------|
-| [e.g., Honor Roll] | [2025] | [All semesters] |
-| [e.g., Regional Science Fair — 2nd Place] | [2024] | [Project on water filtration] |
-| | | |
+| [Winning 1st place as seed 3 after the tournament] | [2026] | [I won first place in the tournament as the third seed by working hard nd beating my opponents one by one] |
+
 
 ### Relevant Coursework (Optional)
 > List classes that connect to your technical work.
 
-- [e.g., AP Computer Science A]
-- [e.g., AP Statistics]
-- [e.g., Digital Media Production]
+- Coding with Aisen since I was 12 
 
 ---
 
@@ -283,16 +284,15 @@ https://github.com/[username]/[repo-name]
 ### What do you want to study in college?
 > I really want to study music, or music production, maybe audio engineering. I am also interested in computer science and how it relates to music.
 
-[Your answer here]
 
 ### What kind of work do you want to do after college?
 Singer or music producer. With my own crowd and instruments. 
 
-[Your answer here]
+
 
 ### What's next for your educational game?
 > I say if I were a fun math teacher for 6-7th grade I would probably use this game as a way to review math concepts with my students. 
-[Your answer here]
+
 
 ---
 
@@ -302,22 +302,14 @@ Singer or music producer. With my own crowd and instruments.
 > Look at these general styles and pick the one that feels most like you. The designer agent will use this as a starting point.
 
 - [ ] **Clean & Minimal** — lots of white space, simple typography, let the work speak for itself
-- [ ] **Bold & Colorful** — vibrant colors, strong visual personality, stands out immediately
-- [ ] **Dark & Technical** — dark theme, code-forward aesthetic, developer-focused
-- [ ] **Warm & Personal** — friendly colors, approachable feel, storytelling-focused
-- [ ] **No preference** — let the designer agent decide based on my content
 
 ### Websites You Like (Optional)
 > If there are any portfolio websites, personal sites, or designs you've seen that you love, list them here. Helps the designer understand your taste.
 
-1. [URL + what you like about it]
-2. [URL + what you like about it]
-3. [URL + what you like about it]
+1. https://www.squarespace.com/templates/nevins-fluid-demo It is very clean and organized it also has pastel colors in it that I love.
 
 ### Anything the Designer Should Know?
-> Favorite colors, aesthetic preferences, things you absolutely hate, accessibility needs, etc.
-
-[Your notes here]
+> Favorite : I love pastel colors like pastel pink, pastel blue, white etc  , Clean and neat I hate  Neon, digusting lookng colors 
 
 ---
 
@@ -325,14 +317,14 @@ Singer or music producer. With my own crowd and instruments.
 
 > Which links do you want visible on your portfolio? Check the ones to include.
 
-- [ ] **Email:** [your email]
-- [ ] **GitHub:** https://github.com/[username]
-- [ ] **LinkedIn:** [your LinkedIn URL]
-- [ ] **Twitter/X:** [your handle]
-- [ ] **Instagram:** [your handle — only if it's appropriate/professional]
-- [ ] **YouTube:** [if you have coding or project content]
-- [ ] **Personal Blog:** [URL]
-- [ ] **Other:** [what + URL]
+- [ ] **Email:** n/a
+- [ ] **GitHub:** https://github.com/Dillybeans 
+- [ ] **LinkedIn:** n/a
+- [ ] **Twitter/X:** n/a
+- [ ] **Instagram:** n/a
+- [ ] **YouTube:** n/a
+- [ ] **Personal Blog:** n/a
+- [ ] **Other:** https://scratch.mit.edu/projects/780162864/
 
 ---
 
